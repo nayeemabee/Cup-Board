@@ -1,0 +1,99 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Montserrat-Bold";
+  }
+
+p{
+    font-size: 1.2rem;
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family:"Montserrat-bold" ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+  }
+
+/* Sections  */
+
+.colored-section {
+    background-color: #212f30;
+    color: #fff; 
+} */
+
+.white-section {
+    background-color: #fff;
+}
+  
+/* Navigation bar  */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+a.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 1000;
+}
+
+.nav-item{
+    padding: 0 60px;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Buttons */
+
+.Book-button{
+    margin: 5% 3% 5% 0;
+}
+
+.Add-button{
+    margin-top: 7% ;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Title image */
+
+.title-image{
+    width: 40%;
+    margin: 70px 0 0 130px;
+    border-radius: 100%;
+    
+}
+
+/* Table-Section */
+
+@media (max-width:1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+    width: 80%;
+    right: 30%;
+    }
+    
+}
